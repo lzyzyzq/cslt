@@ -11,6 +11,34 @@
 ![Astro主题 vhAstro-Theme](https://i0.wp.com/uxiaohan.github.io/v2/2025/04/1743737394560.webp)
 
 ## ✨ 功能特性
+# arch_arm
+
+#### 介绍
+手机安装archLinux系统
+
+#### 软件架构
+Arm64
+#### 安装教程
+
+1.  pkg install wget openssl-tool proot -y
+2.  wget https://gitee.com/zhaocaiall/arch-arm/raw/master/arch.sh
+3.  sh ./arch.sh
+
+#### 使用说明
+
+1.  ./start-arch.sh    # 启动系统
+2.  chmod 755 additional.sh
+3.  ./additional.sh
+
+#### 卸载（在Termux中操作）
+
+1.  rm -rf arch-fs
+2.  rm -rf arch-binds
+3.  rm -rf arch.sh
+4.  rm -rf start-arch.sh
+5.  rm -rf ssh-pac.sh
+6.  rm -rf de-pac.sh
+7.  rm -rf unarch.sh
 
 - [x] 简洁的响应式设计
 - [x] 流畅的动画和页面过渡
